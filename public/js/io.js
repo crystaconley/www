@@ -1,0 +1,1 @@
+(function(){var n;n=function(n,t){return Math.floor(Math.random()*(t-n+1))+n},document.addEventListener("DOMContentLoaded",function(){var t,a;a=window.location.pathname,"/"===a&&(t=document.getElementsByClassName("bg")[0],t.style.backgroundImage="url('/img/"+n(1,3)+".jpg')")})}).call(this);
